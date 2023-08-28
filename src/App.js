@@ -1,9 +1,10 @@
 import './App.css';
+import Body from './Components/Body';
 
 function App() {
   return (
-    <div className="text-3xl font-bold text-red-400">
-      ITS NETFLIX_GPT time
+    <div>
+     <Body />
     </div>
   );
 }
