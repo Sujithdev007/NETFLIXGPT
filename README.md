@@ -11,6 +11,8 @@
 # USE REF hook
 -FireBase Setup
 -Signin /singnup
+-Register for TMDB API
+- api call is done(get movies)
 
 
 
