@@ -5,7 +5,10 @@ const MovieSclice = createSlice({
     name: 'movie',
     initialState:{
         nowplayingList: null,
-        backgroundVideos: null
+        backgroundVideos: null,
+        popularMovies: null,
+        topRatedMovies: null,
+        upcomingMovies:null,
     },
     reducers:{
         addMovieLists: (state, action)=>{
@@ -13,6 +16,15 @@ const MovieSclice = createSlice({
         },
         addBackgroundVideo: (state, action) => {
             state.backgroundVideos = action.payload;
+        },
+        addPopluarMovies:(state, action) => {
+            state.popularMovies = action.payload;
+        },
+        addtopRatedMovies:(state, action) => {
+            state.topRatedMovies =action.payload;
+        },
+        addUpcomingMovies: (state, action) => {
+            state.upcomingMovies =action.payload;
         }
     }
 })
@@ -20,4 +32,4 @@ const MovieSclice = createSlice({
 
 export default MovieSclice.reducer;
 
-export const { addMovieLists, addBackgroundVideo } = MovieSclice.actions;
+export const { addMovieLists, addBackgroundVideo, addPopluarMovies, addtopRatedMovies, addUpcomingMovies } = MovieSclice.actions;

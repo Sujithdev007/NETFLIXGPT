@@ -12,7 +12,19 @@
 -FireBase Setup
 -Signin /singnup
 -Register for TMDB API
+-main conatiner 
+    -background video title
+    -background video 
+-Secondary Conatiner
+    -Movie List
+    -Movie Card
+-IMG_CDN(API CAll)
+-Tailwind CSS
 - api call is done(get movies)
+-API call is done (Popular movies)
+-API call is done (up coming movies)
+-API call is done (Trending movies)
+
 
 
 
