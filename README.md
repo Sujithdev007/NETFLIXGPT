@@ -24,6 +24,7 @@
 -API call is done (Popular movies)
 -API call is done (up coming movies)
 -API call is done (Trending movies)
+-made GPTSEARCH button, GPTSEARCH BAR component and gptSCLICe
 
 
 
